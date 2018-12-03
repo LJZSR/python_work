@@ -1,0 +1,18 @@
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles.append('ducati')
+print(motorcycles)
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
+del motorcycles[0]
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(popped_motorcycle)
+print(motorcycles)
+first_owend = motorcycles.pop(0)
+print(first_owend)
+motorcycles.insert(0, 'honda')
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
+motorcycles.remove('ducati')
+print(motorcycles)
