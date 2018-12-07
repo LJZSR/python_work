@@ -23,3 +23,7 @@ for name in favorite_languages.keys():
 		print('	Hi ' + name.title() +
 			', I see your favorite language is ' +
 			favorite_languages[name].title() + '!')
+
+print('\nThe following language have been mentioned:')
+for language in sorted(set(favorite_languages.values())):
+	print(language.title())
