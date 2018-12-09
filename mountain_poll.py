@@ -17,4 +17,4 @@ while polling_active:
 #调查结束，显示结果
 print('\n--- Poll Results ---')
 for name, response in responses.items():
-	print(name.title() + 'would to climb ' + response + '.')
+	print(name.title() + ' would to climb ' + response + '.')
